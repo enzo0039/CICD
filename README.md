@@ -43,4 +43,4 @@ subscription-id: ${{ secrets.__subscriptionidsecretname__ }}
 
 Effectuez un commit et un push sur votre dépôt Git pour déclencher le flux de travail GitHub Actions. Suivez les étapes de déploiement et vérifiez que votre application est correctement déployée sur Azure Web App.
 
-Vous avez maintenant déployé avec succès votre application Python sur Azure Web App en utilisant GitHub Actions ! 🚀
+Vous avez maintenant déployé avec succès votre application Python sur Azure Web App en utilisant GitHub Actions ! 🚀🚀🚀
