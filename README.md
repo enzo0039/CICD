@@ -27,19 +27,9 @@ Accédez au centre de déploiement de votre Web App dans le portail Azure. Séle
 
 ## 6ème étape : Intégration de l'Action GitHub
 
-Une fois votre dépôt connecté à Azure, accédez à l'onglet Actions dans votre dépôt GitHub. Activez les actions GitHub et modifier le fichier YAML (main_tp2devops.yml) pour votre flux de travail.
+Une fois votre dépôt connecté à Azure, accédez à l'onglet Actions dans votre dépôt GitHub. Activez les actions GitHub.
 
-## 7ème étape : Configuration des paramètres Azure
-
-Copiez ces crédentials à la fin de votre fichier .yml :
-
-```bash
-client-id: ${{ secrets.__clientidsecretname__ }}
-tenant-id: ${{ secrets.__tenantidsecretname__ }}
-subscription-id: ${{ secrets.__subscriptionidsecretname__ }}
-```
-
-## 8ème étape : Lancement de l'Action GitHub
+## 7ème étape : Lancement de l'Action GitHub
 
 Effectuez un commit et un push sur votre dépôt Git pour déclencher le flux de travail GitHub Actions. Suivez les étapes de déploiement et vérifiez que votre application est correctement déployée sur Azure Web App.
 
